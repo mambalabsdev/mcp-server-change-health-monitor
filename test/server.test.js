@@ -109,8 +109,8 @@ test("package identity matches the locked naming convention", () => {
   const key = Object.keys(mcp.mcpServers);
   assert.deepEqual(key, ["mamba-mcp-server-change-health-monitor"]);
   assert.deepEqual(mcp.mcpServers[key[0]].args, ["-y", pkg.name]);
-  assert.equal(pkg.name, "@mambalabsdev/mcp-mcp-server-change-health-monitor");
-  assert.equal(pkg.mcpName, "com.mambabuilt/mcp-mcp-server-change-health-monitor");
+  assert.equal(pkg.name, "@mambalabsdev/mcp-server-change-health-monitor");
+  assert.equal(pkg.mcpName, "com.mambabuilt/mcp-server-change-health-monitor");
 });
 
 test("the package ships only the declared allowlist", () => {

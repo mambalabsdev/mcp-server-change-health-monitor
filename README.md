@@ -1,6 +1,6 @@
 # MCP Server Change and Health Monitor MCP Server
 
-[![npm version](https://img.shields.io/npm/v/@mambalabsdev/mcp-mcp-server-change-health-monitor)](https://www.npmjs.com/package/@mambalabsdev/mcp-mcp-server-change-health-monitor) [![license](https://img.shields.io/github/license/mambalabsdev/mcp-mcp-server-change-health-monitor)](https://github.com/mambalabsdev/mcp-mcp-server-change-health-monitor/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/@mambalabsdev/mcp-server-change-health-monitor)](https://www.npmjs.com/package/@mambalabsdev/mcp-server-change-health-monitor) [![license](https://img.shields.io/github/license/mambalabsdev/mcp-server-change-health-monitor)](https://github.com/mambalabsdev/mcp-server-change-health-monitor/blob/main/LICENSE)
 
 An MCP server for the Mamba Labs MCP Server Change and Health Monitor actor on Apify. Check any list of MCP servers and get one row per server: did it answer, what it exposes, and what changed.
 
@@ -35,7 +35,7 @@ Add this to your Claude Desktop config (`claude_desktop_config.json`), Cursor, o
       "command": "npx",
       "args": [
         "-y",
-        "@mambalabsdev/mcp-mcp-server-change-health-monitor"
+        "@mambalabsdev/mcp-server-change-health-monitor"
       ],
       "env": {
         "APIFY_TOKEN": "your-apify-token"

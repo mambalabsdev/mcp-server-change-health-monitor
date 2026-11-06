@@ -4,7 +4,7 @@
       "command": "npx",
       "args": [
         "-y",
-        "@mambalabsdev/mcp-mcp-server-change-health-monitor"
+        "@mambalabsdev/mcp-server-change-health-monitor"
       ],
       "env": {
         "APIFY_TOKEN": "your-apify-token"

@@ -1,10 +1,10 @@
 {
-  "name": "@mambalabsdev/mcp-mcp-server-change-health-monitor",
+  "name": "@mambalabsdev/mcp-server-change-health-monitor",
   "version": "1.0.0",
   "description": "MCP server for MCP Server Change and Health Monitor. Checks MCP servers for uptime and tool changes, with breaking changes marked. Runs on Apify.",
   "type": "module",
   "bin": {
-    "mcp-mcp-server-change-health-monitor": "./build/index.js"
+    "mcp-server-change-health-monitor": "./build/index.js"
   },
   "files": [
     "build",
@@ -33,7 +33,7 @@
   "homepage": "https://apify.com/mambalabs/mcp-server-change-health-monitor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mambalabsdev/mcp-mcp-server-change-health-monitor"
+    "url": "https://github.com/mambalabsdev/mcp-server-change-health-monitor"
   },
   "engines": {
     "node": ">=18"
@@ -46,5 +46,5 @@
     "@types/node": "^26.2.0",
     "typescript": "5.9.3"
   },
-  "mcpName": "com.mambabuilt/mcp-mcp-server-change-health-monitor"
+  "mcpName": "com.mambabuilt/mcp-server-change-health-monitor"
 }

@@ -3,7 +3,7 @@
 ## Supported versions
 
 The latest published `1.x` release of
-`@mambalabsdev/mcp-mcp-server-change-health-monitor` receives security updates.
+`@mambalabsdev/mcp-server-change-health-monitor` receives security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |

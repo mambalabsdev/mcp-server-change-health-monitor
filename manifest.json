@@ -1,16 +1,16 @@
 {
   "manifest_version": "0.3",
-  "name": "mcp-mcp-server-change-health-monitor",
+  "name": "mcp-server-change-health-monitor",
   "version": "1.0.0",
   "description": "MCP server for MCP Server Change and Health Monitor. Checks MCP servers for uptime and tool changes, with breaking changes marked. Runs on Apify.",
   "author": {
     "name": "Mamba Labs"
   },
   "license": "MIT",
-  "homepage": "https://github.com/mambalabsdev/mcp-mcp-server-change-health-monitor",
+  "homepage": "https://github.com/mambalabsdev/mcp-server-change-health-monitor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mambalabsdev/mcp-mcp-server-change-health-monitor"
+    "url": "https://github.com/mambalabsdev/mcp-server-change-health-monitor"
   },
   "server": {
     "type": "node",
