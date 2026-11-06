@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-mcp-server-change-health-monitor": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-mcp-server-change-health-monitor"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

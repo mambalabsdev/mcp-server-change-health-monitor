@@ -1,0 +1,50 @@
+{
+  "name": "@mambalabsdev/mcp-mcp-server-change-health-monitor",
+  "version": "1.0.0",
+  "description": "MCP server for MCP Server Change and Health Monitor. Checks MCP servers for uptime and tool changes, with breaking changes marked. Runs on Apify.",
+  "type": "module",
+  "bin": {
+    "mcp-mcp-server-change-health-monitor": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-monitor",
+    "mcp-server",
+    "schema-drift",
+    "uptime",
+    "breaking-changes",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/mcp-server-change-health-monitor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-mcp-server-change-health-monitor"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-mcp-server-change-health-monitor"
+}
