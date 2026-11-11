@@ -1,7 +1,7 @@
 {
   "name": "mcp-server-change-health-monitor",
   "displayName": "MCP Server Change and Health Monitor",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "MCP server for MCP Server Change and Health Monitor. Checks MCP servers for uptime and tool changes, with breaking changes marked. Runs on Apify.",
   "author": {
     "name": "Mamba Labs",
